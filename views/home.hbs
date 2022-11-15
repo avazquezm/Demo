@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo</title>
+  </head>
+  <body>
+    <p>Mi aplicación de prueba.</p>
+
+    <ul>
+        {{#each data}}
+            <li>
+                <b>{{producto}}.</b> Cantidad: {{cantidad}}. Importe medio: {{importe_medio}}
+            </li>
+        {{/each}}
+    </ul>  
+
+
+  </body>
+</html>
